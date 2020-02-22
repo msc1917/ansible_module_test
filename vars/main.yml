@@ -1,0 +1,31 @@
+download:
+  helm:
+    version: 'v3.0.3'
+    files:
+      - helm-arm
+      - helm-arm64
+      - helm-amd64
+  k3s:
+    version: 'v1.17.0%2Bk3s.1'
+    files:
+      - k3s-arm
+      - k3s-arm64
+      - k3s-amd64
+  rke:
+    version: 'v1.0.4'
+    files:
+      - rke-arm
+      - rke-arm64
+      - rke-amd64
+  kubeadm:
+    version: 'v1.0.4'
+    files:
+      - kubeadm-arm
+      - kubeadm-arm64
+      - kubeadm-amd64
+  minikube:
+    version: 'v1.0.4'
+    files:
+      - minikube-arm
+      - minikube-arm64
+      - minikube-amd64
