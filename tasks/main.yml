@@ -1,4 +1,1 @@
 ---
-- name: Download Binaries
-  include_tasks: initial-download.yml
-
